@@ -1,4 +1,4 @@
 package org.example.exampleRMI;
 
-public class mid {
+public class Main {
 }
