@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="" />
+    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="exemlpe morpion up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +15,37 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "assignee": "PENKOV-Miroslav"
+    }
+  ],
+  "lastFilter": {
+    "assignee": "PENKOV-Miroslav"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a3085e2e-12d3-43db-8c47-680da54a9cc4" />
+        <option name="url" value="https://github.com/PENKOV-Miroslav/RMI.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -29,6 +58,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.RMI [:Client.main()].executor": "Run",
+    "Gradle.RMI [:GenerationClasse.main()].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-VCS Hosting Integrations": "VCS hosting integrations",
+    "Notification.DoNotAsk-VCS Hosting Integrations": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -37,6 +70,40 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exampleRMI.Client" />
+      <module name="RMI.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exampleRMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerationClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exampleRMI.GenerationClasse" />
+      <module name="RMI.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.exampleRMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.GenerationClasse" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +113,47 @@
       <option name="presentableId" value="Default" />
       <updated>1709644097414</updated>
     </task>
+    <task id="LOCAL-00001" summary="packages">
+      <option name="closed" value="true" />
+      <created>1709647876338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647876338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="packages up">
+      <option name="closed" value="true" />
+      <created>1709647994587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709647994587</updated>
+    </task>
+    <task id="LOCAL-00003" summary="exemlpe rmi package">
+      <option name="closed" value="true" />
+      <created>1709648823510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709648823510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="exemlpe morpion">
+      <option name="closed" value="true" />
+      <created>1709648915228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709648915228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="exemlpe morpion up">
+      <option name="closed" value="true" />
+      <created>1709649054545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709649054545</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +166,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="packages" />
+    <MESSAGE value="packages up" />
+    <MESSAGE value="exemlpe rmi package" />
+    <MESSAGE value="exemlpe morpion package" />
+    <MESSAGE value="exemlpe morpion" />
+    <MESSAGE value="exemlpe morpion up" />
+    <option name="LAST_COMMIT_MESSAGE" value="exemlpe morpion up" />
   </component>
 </project>
