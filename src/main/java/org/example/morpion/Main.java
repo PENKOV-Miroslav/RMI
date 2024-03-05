@@ -1,4 +1,4 @@
 package org.example.morpion;
 
-public class bid {
+public class Main {
 }
