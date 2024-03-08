@@ -15,9 +15,9 @@ public class MorpionGame extends UnicastRemoteObject implements InterfaceMorpion
     }
 
     @Override
-    public void playMove(int row, int col, char player) throws RemoteException {
+    public synchronized void playMove(int row, int col, char player) throws RemoteException {
         // Vérifier si la case est vide et si la partie n'est pas terminée
-        if (grid.getGrille()[row][col] == ' ' && !gameOver) {
+        if (grid.getGrille()[row][col] == ' ' && !gameOver && player == currentPlayer) {
             grid.getGrille()[row][col] = player; // Jouer le coup
             // Vérifier si le joueur actuel a gagné après avoir joué ce coup
             if (checkWinner(player)) {

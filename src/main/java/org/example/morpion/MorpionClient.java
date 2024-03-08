@@ -5,7 +5,6 @@ import java.rmi.registry.Registry;
 import java.util.Scanner;
 
 public class MorpionClient {
-
     private static final String DEFAULT_HOST = "localhost";
     private static final int DEFAULT_PORT = 1099;
     private static final String REGISTRY_NAME = "MorpionGame";
@@ -22,22 +21,22 @@ public class MorpionClient {
             boolean gameOver = false;
 
             while (!gameOver) {
-                // Afficher la grille
                 System.out.println(stub.visualizeGrid());
-
-                // Demander au joueur de jouer
                 System.out.println("Entrez les coordonnées de votre prochain coup (ligne colonne) : ");
                 int row = scanner.nextInt();
                 int col = scanner.nextInt();
 
-                // Jouer le coup
+                // Vérifier si les coordonnées sont valides
+                if (row < 0 || row >= 3 || col < 0 || col >= 3) {
+                    System.out.println("Coordonnées invalides. Veuillez entrer des valeurs entre 0 et 2 inclusivement.");
+                    continue; // Demander à nouveau les coordonnées
+                }
+
                 stub.playMove(row, col, 'X');
 
-                // Vérifier si le jeu est terminé
                 gameOver = stub.isGameOver();
 
                 if (gameOver) {
-                    // Afficher le résultat du jeu
                     char winner = stub.checkWinner();
                     if (winner == ' ') {
                         System.out.println("Match nul !");
