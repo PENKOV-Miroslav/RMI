@@ -7,7 +7,7 @@ public class Client {
     public static void main(String[] args) {
         try {
             //Remplacer localhost par l'IP du PC sur le réseau
-            Registry registry = LocateRegistry.getRegistry("localhost", 1099);
+            Registry registry = LocateRegistry.getRegistry("192.168.84.124", 1099);
             CommInterface serveur = (CommInterface) registry.lookup("communication");
             serveur.envoyerMessage("Bonjour depuis le client !");
         } catch (Exception e) {

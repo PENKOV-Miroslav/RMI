@@ -5,7 +5,7 @@ import java.rmi.registry.Registry;
 import java.util.Scanner;
 
 public class MorpionClient {
-    private static final String DEFAULT_HOST = "localhost";
+    private static final String DEFAULT_HOST = "192.168.84.124";
     private static final int DEFAULT_PORT = 1099;
     private static final String REGISTRY_NAME = "MorpionGame";
 

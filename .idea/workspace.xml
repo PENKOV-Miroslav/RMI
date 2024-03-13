@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="update serveur,game et client">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exampleRMI/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exampleRMI/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/morpion/MorpionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/morpion/MorpionClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testCoPCDist/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testCoPCDist/RemoteInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testCoPCDist/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/Information.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/InformationImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/LanceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/LanceServeur.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +70,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.RMI [:Client.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RMI [:GenerationClasse.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RMI [:MorpionClient.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RMI [:MorpionServeur.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RMI [:Server.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RMI [:Serveur.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-VCS Hosting Integrations&quot;: &quot;VCS hosting integrations&quot;,
-    &quot;Notification.DoNotAsk-VCS Hosting Integrations&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/miroslavpenkov/IdeaProjects/RMI/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.RMI [:Client.main()].executor": "Run",
+    "Gradle.RMI [:GenerationClasse.main()].executor": "Run",
+    "Gradle.RMI [:LanceServeur.main()].executor": "Run",
+    "Gradle.RMI [:MorpionClient.main()].executor": "Run",
+    "Gradle.RMI [:MorpionServeur.main()].executor": "Run",
+    "Gradle.RMI [:Server.main()].executor": "Run",
+    "Gradle.RMI [:Serveur.main()].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-VCS Hosting Integrations": "VCS hosting integrations",
+    "Notification.DoNotAsk-VCS Hosting Integrations": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/miroslavpenkov/IdeaProjects/RMI/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.org.example.testConnexionPC.Client">
+}]]></component>
+  <component name="RunManager" selected="Application.MorpionClient">
+    <configuration name="LanceServeur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testConnexionPC.LanceServeur" />
+      <module name="RMI.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testConnexionPC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MorpionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.morpion.MorpionClient" />
       <module name="RMI.main" />
@@ -93,19 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorpionServeur (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MorpionServeur" />
-      <module name="RMI.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MorpionServeur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.morpion.MorpionServeur" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.testCoPCDist.Server" />
       <module name="RMI.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.morpion.*" />
+          <option name="PATTERN" value="org.example.testCoPCDist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serveur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.testConnexionPC.Serveur" />
+    <configuration name="org.example.exampleRMI.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exampleRMI.Client" />
       <module name="RMI.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.testConnexionPC.*" />
+          <option name="PATTERN" value="org.example.exampleRMI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MorpionServeur (1)" />
         <item itemvalue="Application.MorpionClient" />
-        <item itemvalue="Application.MorpionServeur" />
         <item itemvalue="Application.org.example.testConnexionPC.Client" />
-        <item itemvalue="Application.Serveur" />
+        <item itemvalue="Application.org.example.exampleRMI.Client" />
+        <item itemvalue="Application.LanceServeur" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709893627349</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <option name="closed" value="true" />
+      <created>1710321635694</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710321635694</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +296,7 @@
     <MESSAGE value="structure jeu" />
     <MESSAGE value="update serveur" />
     <MESSAGE value="update serveur,game et client" />
-    <option name="LAST_COMMIT_MESSAGE" value="update serveur,game et client" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

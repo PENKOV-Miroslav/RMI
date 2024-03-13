@@ -7,7 +7,7 @@ import java.rmi.Remote;
 public class Client {
     public static void main(String[] args) {
         try {
-            Remote r = Naming.lookup("rmi://" + InetAddress.getLocalHost().getHostName() + "/Generation");
+            Remote r = Naming.lookup("rmi://" + "192.168.83.76" + "/Generation");
             if (r instanceof GenerationInterface) {
                 String chaine = ((GenerationInterface) r).genererChaine(100); System.out.println("Chaîne générée : " + chaine);
             }
