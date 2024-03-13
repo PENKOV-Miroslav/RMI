@@ -21,7 +21,7 @@ public class Serveur extends UnicastRemoteObject implements CommInterface{
         try {
             Serveur serveur = new Serveur();
             Registry registry = LocateRegistry.createRegistry(1099); // Port par défaut
-            String addr = "rmi://" + InetAddress.getLocalHost().getHostName() + "/Generation"; Naming.rebind(addr, serveur);
+            String addr = "rmi://" + InetAddress.getLocalHost().getHostName() + "/communication"; Naming.rebind(addr, serveur);
             //registry.rebind("communication", serveur);
             System.out.println("Serveur RMI prêt.");
         } catch (Exception e) {
