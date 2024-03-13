@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="test">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exampleRMI/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exampleRMI/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/morpion/MorpionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/morpion/MorpionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testCoPCDist/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testCoPCDist/RemoteInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testCoPCDist/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/Information.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/InformationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/LanceClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testConnexionPC/LanceServeur.java" beforeDir="false" />
-    </list>
+    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="Delete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +75,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "/Users/miroslavpenkov/IdeaProjects/RMI/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -270,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710321635694</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Delete">
+      <option name="closed" value="true" />
+      <created>1710328028996</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710328028996</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +295,7 @@
     <MESSAGE value="update serveur" />
     <MESSAGE value="update serveur,game et client" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete" />
   </component>
 </project>

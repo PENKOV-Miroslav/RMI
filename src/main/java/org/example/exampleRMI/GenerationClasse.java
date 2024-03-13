@@ -25,6 +25,7 @@ public class GenerationClasse extends UnicastRemoteObject implements GenerationI
     public static void main(String[] args) {
         try {
             LocateRegistry.createRegistry(1099); GenerationClasse gc = new GenerationClasse();
+            // adresse IP wifi de la machine sur laquelle le serveur se lance
             String addr = "rmi://" + InetAddress.getLocalHost().getHostName() + "/Generation"; Naming.rebind(addr, gc);
         } catch (Exception e) { e.printStackTrace();
         }
