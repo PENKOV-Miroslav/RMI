@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="test co distance pc comment">
+    <list default="true" id="dfe50c8d-85d7-4156-a76b-f4ee3896cfd8" name="Changes" comment="update serveur,game et client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -62,6 +65,9 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.RMI [:Client.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.RMI [:GenerationClasse.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RMI [:MorpionClient.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RMI [:MorpionServeur.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RMI [:Server.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.RMI [:Serveur.main()].executor&quot;: &quot;Run&quot;,
     &quot;Notification.DisplayName-DoNotAsk-VCS Hosting Integrations&quot;: &quot;VCS hosting integrations&quot;,
     &quot;Notification.DoNotAsk-VCS Hosting Integrations&quot;: &quot;true&quot;,
@@ -73,13 +79,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Serveur">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exampleRMI.Client" />
+  <component name="RunManager" selected="Application.org.example.testConnexionPC.Client">
+    <configuration name="MorpionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.morpion.MorpionClient" />
       <module name="RMI.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exampleRMI.*" />
+          <option name="PATTERN" value="org.example.morpion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerationClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exampleRMI.GenerationClasse" />
+    <configuration name="MorpionServeur (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MorpionServeur" />
+      <module name="RMI.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MorpionServeur" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.morpion.MorpionServeur" />
       <module name="RMI.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exampleRMI.*" />
+          <option name="PATTERN" value="org.example.morpion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +141,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MorpionServeur (1)" />
+        <item itemvalue="Application.MorpionClient" />
+        <item itemvalue="Application.MorpionServeur" />
         <item itemvalue="Application.org.example.testConnexionPC.Client" />
         <item itemvalue="Application.Serveur" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.GenerationClasse" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -200,7 +221,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709660542516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="structure jeu">
+      <option name="closed" value="true" />
+      <created>1709891962301</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709891962301</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update serveur">
+      <option name="closed" value="true" />
+      <created>1709892773186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709892773186</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update serveur,game et client">
+      <option name="closed" value="true" />
+      <created>1709893627349</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709893627349</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +268,9 @@
     <MESSAGE value="exemlpe morpion up" />
     <MESSAGE value="test co distance pc" />
     <MESSAGE value="test co distance pc comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="test co distance pc comment" />
+    <MESSAGE value="structure jeu" />
+    <MESSAGE value="update serveur" />
+    <MESSAGE value="update serveur,game et client" />
+    <option name="LAST_COMMIT_MESSAGE" value="update serveur,game et client" />
   </component>
 </project>
